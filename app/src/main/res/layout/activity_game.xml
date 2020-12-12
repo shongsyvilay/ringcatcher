@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:contentDescription="@string/hand"
+    tools:context=".Game">
+
+    <ImageView
+        android:id="@+id/waterysidewalk"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:contentDescription="@string/water"
+        android:rotation="90"
+        android:scaleX="2"
+        android:scaleY="1.5"
+        app:srcCompat="@drawable/waterysidewalk" />
+
+    <ImageView
+        android:id="@+id/justfriend"
+        android:layout_width="100dp"
+        android:layout_height="105dp"
+        android:contentDescription="@string/justfriend"
+        android:rotation="90"
+        android:src="@drawable/justfriend" />
+
+    <ImageView
+        android:id="@+id/hand"
+        android:layout_width="41dp"
+        android:layout_height="wrap_content"
+        android:contentDescription="@string/hand"
+        android:rotation="90"
+        android:rotationY="30"
+        app:srcCompat="@drawable/hand" />
+
+    <ImageView
+        android:id="@+id/ring"
+        android:layout_width="27dp"
+        android:layout_height="38dp"
+        android:contentDescription="@string/ring"
+        android:rotation="90"
+        app:srcCompat="@drawable/ring" />
+
+    <TextView
+        android:id="@+id/result"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:rotation="90"
+        android:text="@string/you_caught_it"
+        android:textColor="@color/white"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</FrameLayout>

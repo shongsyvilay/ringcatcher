@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">RingCatcher</string>
+    <string name="push_to_start_ring_catcher">Push to Start\nRing Catcher</string>
+    <string name="fireworks">fireworks</string>
+    <string name="spotText">You and your partner are at the perfect spot for your proposal.</string>
+    <string name="next">Next ></string>
+    <string name="friends">friends</string>
+    <string name="friendsText">Your friend is holding the ring, but was having so much fun playing in the leaves\n that he hastily threw the ring!
+                                \nHurry and catch it before it falls in the water!</string>
+    <string name="begin">Begin!</string>
+    <string name="justfriend">justfriend</string>
+    <string name="ring">ring</string>
+    <string name="hand">hand</string>
+    <string name="you_caught_it">You caught it!!! \nHopefully your partner knows what a catch you are after that!</string>
+    <string name="resultBad">You didn\'t catch it!!! \nGo find another ring to try again…</string>
+    <string name="water">water</string>
+</resources>
